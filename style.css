@@ -1,0 +1,124 @@
+
+
+.b1{
+	font-style: italic;
+	color: black;
+	font-size: 25px;
+
+}
+
+
+.arriere{
+	background-image: url(banniere01.2.gif);
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 500px;
+	color: white;
+	font-size: 20px;
+
+}
+.lien{
+	font-size: 25px;
+}
+
+  .fadeIn {
+  	width: 500px;
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  }
+  @-webkit-keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+  }
+  @keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+
+  } 
+     .titre {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  }
+  @-webkit-keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+  }
+  @keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+  } 
+
+  .carte{
+  	-webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  }
+  @-webkit-keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+  }
+  @keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+
+
+  }
+.i1{
+	-webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+  -webkit-animation-duration: 5s;
+  animation-duration: 5s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  }
+  @-webkit-keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+  }
+  @keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+  } 
+
+#r{
+	float: right;
+}
+
+.q1{
+	-webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+  -webkit-animation-duration: 5s;
+  animation-duration: 5s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  }
+  @-webkit-keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+  }
+  @keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+  } 
+
+.fond{
+	width: 1500px;
+	margin: 0 auto;
+	background-color: white;
+}
+
+.ab{
+	width: 500px;
+}
+
