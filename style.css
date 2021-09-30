@@ -8,21 +8,49 @@
 }
 
 
-.arriere{
-	background-image: url(banniere01.2.gif);
+.arriere img{
+	width: 100%;
+    filter: blur(5px);
 	background-repeat: no-repeat;
 	background-position: center;
-	height: 500px;
+	height: 700px;
 	color: white;
 	font-size: 20px;
 
 }
+.arriere h1{
+    color: white;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+
+    -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  }
+  @-webkit-keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+  }
+  @keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+  } 
+}
+
 .lien{
 	font-size: 25px;
 }
 
-  .fadeIn {
+  .arriere p {
+    color: white;
   	width: 500px;
+    position: absolute;
+    top: 30%;
+    left: 40%;
   -webkit-animation-name: fadeIn;
   animation-name: fadeIn;
   -webkit-animation-duration: 3s;
@@ -38,22 +66,6 @@
   0% {opacity: 0;}
   100% {opacity: 1;}
 
-  } 
-     .titre {
-  -webkit-animation-name: fadeIn;
-  animation-name: fadeIn;
-  -webkit-animation-duration: 3s;
-  animation-duration: 3s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
-  }
-  @-webkit-keyframes fadeIn {
-  0% {opacity: 0;}
-  100% {opacity: 1;}
-  }
-  @keyframes fadeIn {
-  0% {opacity: 0;}
-  100% {opacity: 1;}
   } 
 
   .carte{
